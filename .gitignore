@@ -1,0 +1,5 @@
+# Ignore VS code
+.vscode*
+# Ignore bazel
+bazel-*
+MODULE.bazel*

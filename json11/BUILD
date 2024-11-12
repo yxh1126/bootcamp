@@ -13,3 +13,13 @@ cc_library(
         "json11.hpp",
     ],
 )
+
+cc_binary(
+    name = "test",
+    srcs = [
+        "test.cpp",
+    ],
+    deps = [
+        ":json11",
+    ],
+)
