@@ -7,19 +7,19 @@ package(
 cc_library(
     name = "json11",
     srcs = [
-        "json11.cpp",
+        "json11.cc",
     ],
     hdrs = [
-        "json11.hpp",
+        "json11.h",
     ],
 )
 
 cc_binary(
-    name = "test",
+    name = "test_run",
     srcs = [
-        "test.cpp",
+        "test_run.cc",
     ],
     deps = [
-        ":json11",
+        "//json11:json11",
     ],
 )
