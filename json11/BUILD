@@ -15,9 +15,9 @@ cc_library(
 )
 
 cc_binary(
-    name = "test_run",
+    name = "test_tool",
     srcs = [
-        "test_run.cc",
+        "test_tool.cc",
     ],
     deps = [
         "//json11:json11",
